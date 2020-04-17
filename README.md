@@ -4,7 +4,7 @@ Aplicação Web Angular + Rest API em Spring Boot
 
 Para saber detalhes da documentação acesse o arquivo `README.md` de cada projeto.
 
-![API](./api/README.md')
+![API](./api/README.md)
 ![WEB](./web/README.md)
 
 ## Layout da aplicação
