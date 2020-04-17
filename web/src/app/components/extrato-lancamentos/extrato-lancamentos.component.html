@@ -1,0 +1,12 @@
+<div *ngIf="lancamentos; else elseBlock">
+  <app-tabela-lancamentos
+  [lancamentos]="lancamentos">
+  </app-tabela-lancamentos>
+
+  <app-card-lancamentos
+  [lancamentos]="lancamentos">
+  </app-card-lancamentos>
+</div>
+<ng-template #elseBlock>
+  <h3>Nenhum lançamento encontrado</h3>
+</ng-template>

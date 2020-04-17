@@ -1,0 +1,20 @@
+<table>
+  <tr>
+    <th>Data do lançamento</th>
+    <th>Descrição</th>
+    <th>Número</th>
+    <th>Situação</th>
+    <th>Data de confirmação</th>
+    <th>Dados bancários</th>
+    <th>Valor final</th>
+  </tr>
+  <tr *ngFor="let lancamento of lancamentos">
+    <td>{{lancamento.dataLancamento}}</td>
+    <td>{{lancamento.descricao}}</td>
+    <td>{{lancamento.numeroRemessa}}</td>
+    <td>{{lancamento.situacao}}</td>
+    <td>{{lancamento.dataConfirmacao}}</td>
+    <td>{{lancamento.banco.nome}} Ag. {{lancamento.banco.agencia}} Cc. {{lancamento.banco.contaCorrente}}</td>
+    <td>{{lancamento.valor | currency : 'R$'}}</td>
+  </tr>
+</table>

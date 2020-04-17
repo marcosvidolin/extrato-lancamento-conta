@@ -1,0 +1,15 @@
+<div>
+  <div class="card" *ngFor="let lancamento of lancamentos">
+    <div class="header">
+      <p><span>Data do lançamento: </span> {{lancamento.dataLancamento}}</p>
+    </div>
+    <div class="content">
+      <p><span>Descrição: </span> {{lancamento.descricao}}</p>
+      <p><span>Número: </span> {{lancamento.numeroRemessa}}</p>
+      <p><span>Situação: </span> {{lancamento.situacao}}</p>
+      <p><span>Data de confirmação: </span> {{lancamento.dataConfirmacao}}</p>
+      <p><span>Dados bancários: </span> {{lancamento.banco.nome}} Ag. {{lancamento.banco.agencia}} Cc. {{lancamento.banco.contaCorrente}}</p>
+      <p><span>Valor final: </span> {{lancamento.valor | currency:'BRL':true}}</p>
+    </div>
+  </div>
+</div>

@@ -12,7 +12,7 @@
 		  "dadosDomicilioBancario": {
 			"codigoBanco": 123,
 			"numeroAgencia": 1,
-			"numeroContaCorrente": "00000000065470",
+			"numeroContaCorrente": "00000000065470"
 		  },
 		  "nomeTipoOperacao": "regular"
 		},
@@ -37,7 +37,7 @@
 		  "dadosDomicilioBancario": {
 			"codigoBanco": 123,
 			"numeroAgencia": 1,
-			"numeroContaCorrente": "00000000065470",
+			"numeroContaCorrente": "00000000065470"
 		  },
 		  "nomeTipoOperacao": "regular"
 		},
@@ -57,5 +57,5 @@
 	],
 	"indice": 1,
 	"tamanhoPagina": 25,
-	"totalElements": 39,
+	"totalElements": 39
 }

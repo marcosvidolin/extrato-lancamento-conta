@@ -1,0 +1,12 @@
+app-card-lancamentos {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  app-tabela-lancamentos {
+    display: none;
+  }
+  app-card-lancamentos {
+    display: block;
+  }
+}
